@@ -1,0 +1,197 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Styles */
+#logo {
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+	list-style: none;
+	justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar tr {
+    margin-right: 20px;
+}
+
+.navbar tr td {
+    border: 1px solid;
+}
+
+.navbar tr td a {
+    text-decoration: none;
+	color: white;
+    margin-right: 20px;
+}
+
+.navbar tr td a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.navbar tr td:hover {
+    background-color:#ffffff81;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .active {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+/* Page Styles */
+.page-title {
+    margin-bottom: 20px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results ul {
+    list-style: none;
+}
+
+.search-results ul li {
+    margin-bottom: 10px;
+}
+
+.displays {
+    display: flex;
+    list-style: disc;
+    justify-content: center;
+    font-size: 80%;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    max-width: 100vw; /* Set maximum width to 100% of the viewport width */
+}
+
+.displays li {
+    border: 1px solid;
+    display: inline-block; /* Display list items horizontally */
+    vertical-align: top; /* Align items to the top */
+    margin-right: 20px; /* Add some spacing between items */
+}
+
+.displays li a {
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    font-weight: 600;
+    margin: 10px;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
